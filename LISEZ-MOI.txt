@@ -1,0 +1,31 @@
+SIG en ligne - FSU Com Anonkoua-Koute (AKTE) - version CLE USB
+================================================================
+
+CONTENU
+  SIG_en_ligne_Anonkoua-Koute.html  -> l'application (aucun internet requis)
+  SIG_donnees.json                  -> VOS DONNEES (c'est ici que tout est enregistre)
+  LISEZ-MOI.txt                     -> ce mode d'emploi
+
+Les deux fichiers doivent rester ensemble sur la cle. Ne jamais supprimer SIG_donnees.json.
+
+UTILISATION (sur n'importe quel ordinateur)
+  1. Brancher la cle et double-cliquer sur SIG_en_ligne_Anonkoua-Koute.html
+     -> utiliser GOOGLE CHROME ou MICROSOFT EDGE (Firefox ne peut pas ecrire sur la cle).
+  2. Se connecter (NE PAS cocher "Rester connecte" sur un ordinateur qui n'est pas le votre).
+  3. Un bandeau jaune apparait : cliquer "Ouvrir mon fichier" et choisir
+     SIG_donnees.json sur la cle. Le navigateur demande l'autorisation de modifier
+     le fichier : accepter ("Modifier le fichier").
+  4. Le bandeau devient vert : toutes les donnees saisies sont ecrites directement
+     dans SIG_donnees.json, sur la cle. Rien n'est garde sur l'ordinateur.
+
+  A chaque nouvelle ouverture, refaire l'etape 3 (1 clic) - c'est une securite du navigateur.
+  Sur le meme ordinateur, le bandeau propose parfois "Reconnecter" : cliquer dessus.
+
+PRECAUTIONS
+  - Ne pas retirer la cle pendant un enregistrement ("Enregistre sur la cle USB ✔").
+    Si "Echec : cle absente" apparait, rebrancher la cle et enregistrer a nouveau.
+  - Faire de temps en temps une copie de SIG_donnees.json sur l'ordinateur ou un cloud
+    (une cle USB peut tomber en panne), ou utiliser le bouton "Sauvegarde" en haut.
+  - Bouton "Importer" : fusionne un ancien fichier .json dans les donnees de la cle.
+  - Les boutons "Exporter CSV" des tableaux fonctionnent aussi hors ligne
+    (le fichier se telecharge sur l'ordinateur) : utile pour vos analyses Excel.
